@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font-family: Dosis, sans-serif;
+  color: #3F3D56;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 16px 0 2px 0;
+}
+
+#container{
+  width: 540px;
+  text-align: center;
+  margin: 64px auto 40px;
+}
+
+#container h1 span{
+  color: #EE24FF;
+  font-weight: bold;
+}
+
+#container p{
+  font-family: 'Open Sans', sans-serif;
+  color: #828282;
+  font-size: 15px
+}
+
+#container p strong{
+  color: #3F3D56;
+}
+
+.gray{
+  color: #828282 !important;
+}
+
+#links{
+  word-spacing: 50px;
+}
+
+.line{
+  margin: 64px auto 16px;
+  width: 390px;
+  border: 1px solid #ECEFF2;
+}
+
+a:link{
+  text-decoration: none;
+  color: #3F3D56;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  transition: 0.3s;
+}
+
+a:hover{
+  color: #EE24FF;
+}
+
+.figure img{
+  width: 100%;
+  
+}
+
+.p-container p{
+  margin: 16px 0 0;
+}
+
+.p-container p:nth-child(2){
+  margin: 32px 0;
+}
